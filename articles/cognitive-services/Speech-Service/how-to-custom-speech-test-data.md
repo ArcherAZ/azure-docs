@@ -112,12 +112,12 @@ Product names or features that are unique, should include related text data for 
 
 | Data type | How this data improves recognition |
 |-----------|------------------------------------|
-| Utterances (sentences) | Improve accuracy when recognizing product names, or industry-specific vocabulary within the context of a sentence. |
+| Sentences (utterances) | Improve accuracy when recognizing product names, or industry-specific vocabulary within the context of a sentence. |
 | Pronunciations | Improve pronunciation of uncommon terms, acronyms, or other words with undefined pronunciations. |
 
-Utterances can be provided as a single text file or multiple text files. To improve accuracy, use text data that is closer to the expected spoken utterances. Pronunciations should be provided as a single text file. Everything can be packaged as a single zip file and uploaded to the <a href="https://speech.microsoft.com/customspeech" target="_blank">Custom Speech portal <span class="docon docon-navigate-external x-hidden-focus"></span></a>.
+Sentences can be provided as a single text file or multiple text files. To improve accuracy, use text data that is closer to the expected spoken utterances. Pronunciations should be provided as a single text file. Everything can be packaged as a single zip file and uploaded to the <a href="https://speech.microsoft.com/customspeech" target="_blank">Custom Speech portal <span class="docon docon-navigate-external x-hidden-focus"></span></a>.
 
-### Guidelines to create an utterances file
+### Guidelines to create a sentences file
 
 To create a custom model using related text, you'll need to provide a list of sample utterances. Utterances _do not_ need to be complete sentences or grammatically correct, but they must accurately reflect the spoken input you expect in production. If you want certain terms to have increased weight, add several sentences that include these specific terms.
 
